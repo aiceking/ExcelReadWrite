@@ -12,6 +12,8 @@ import android.widget.Toast;
 import com.android.excelreadwrite.permissionhelp.GetPermissionListener;
 import com.android.excelreadwrite.permissionhelp.PermissionHelp;
 import com.android.excelreadwrite.permissionhelp.PermissionType;
+import com.tencent.smtt.sdk.QbSdk;
+import com.tencent.smtt.sdk.ValueCallback;
 
 import java.io.File;
 

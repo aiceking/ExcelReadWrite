@@ -66,10 +66,8 @@ public class FileView extends FrameLayout implements TbsReaderView.ReaderCallbac
                 Log.d(Tag, mFile.toString());
                 localBundle.putString("filePath", mFile.toString());
                 localBundle.putString("tempPath", Environment.getExternalStorageDirectory() + "/" + "TbsReaderTemp");
-
                 if (this.mTbsReaderView == null)
                     this.mTbsReaderView = getTbsReaderView(context);
-
                 boolean bool = this.mTbsReaderView.preOpen(getFileType(mFile.toString()), false);
                 if (bool) {
                     this.mTbsReaderView.openFile(localBundle);

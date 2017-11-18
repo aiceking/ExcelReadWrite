@@ -4,13 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.android.excelreadwrite.MainActivity">
-<Button
+    tools:context="com.android.excelreadwrite.FileViewActivity">
+<com.android.excelreadwrite.FileView
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:padding="10dp"
-    android:text="选择文件"
-    android:id="@+id/btn_select_file"/>
-
+    android:layout_height="match_parent"
+    android:id="@+id/fileview"></com.android.excelreadwrite.FileView>
 </LinearLayout>

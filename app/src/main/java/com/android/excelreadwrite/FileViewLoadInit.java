@@ -1,4 +1,4 @@
-package com.android.excelreadwritelibrary;
+package com.android.excelreadwrite;
 
 import android.content.Context;
 

@@ -1,1 +1,1 @@
-include ':app', ':excelreadwritelibrary'
+include ':app'
